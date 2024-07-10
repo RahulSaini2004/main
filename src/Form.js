@@ -18,6 +18,12 @@ const Form = () => {
       course,
       Age,
     };
+    setvalue('');
+    setEmail('');
+    setAge('');
+    setPassword('');
+    setCourse('');
+    
     const newalldata = alldata.concat(show);
     setalldata(newalldata);
   };
@@ -91,7 +97,7 @@ const Form = () => {
           />
         </label>
         <br />
-
+    
         <button
           onClick={getuser}
           className="btn btn-danger"
